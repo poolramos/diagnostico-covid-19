@@ -1,0 +1,24 @@
+{
+  "name": "sisteam experto telediagnostico",
+  "version": "1.0.0",
+  "description": "Sistema experto para el telediagnostico de nefermedades respiratorias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/app.js",
+    "devstart": "nodemon lib/app.js"
+  },
+  "keywords": [
+    "Expert System",
+    "Respiratory Diseases",
+    "COVID-19"
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "rools": "^2.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
